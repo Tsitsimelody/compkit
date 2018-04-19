@@ -1,6 +1,6 @@
 {
   "name": "compkit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "react component library",
   "main": "build/index.js",
   "scripts": {
@@ -14,11 +14,9 @@
     "type": "git",
     "url": "git+https://github.com/Tsitsimelody/compkit.git"
   },
-  "keywords": [
-    "React",
-    "Component"
-  ],
-  "author": "Tsitsi Melody <tsitsimelody@gmail.com> (https://tsitsimelody.com/)",
+  "keywords": ["React", "Component"],
+  "author":
+    "Tsitsi Melody <tsitsimelody@gmail.com> (https://tsitsimelody.com/)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Tsitsimelody/compkit/issues"
