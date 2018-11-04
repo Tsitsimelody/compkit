@@ -7,38 +7,45 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel lib -d build",
     "build:watch": "babel lib -w -d build",
-    "prepublish": "npm run build",
-    "storybook": "start-storybook -p 9001 -c .storybook"
+    "prepare": "npm run build",
+    "cosmos": "cosmos",
+    "cosmos:export": "cosmos-export"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Tsitsimelody/compkit.git"
   },
-  "keywords": ["React", "Component"],
-  "author":
-    "Tsitsi Melody <tsitsimelody@gmail.com> (https://tsitsimelody.com/)",
+  "keywords": [
+    "React",
+    "Component"
+  ],
+  "author": "Tsitsi Melody <tsitsimelody@gmail.com> (https://tsitsimelody.com/)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Tsitsimelody/compkit/issues"
   },
   "homepage": "https://github.com/Tsitsimelody/compkit#readme",
   "devDependencies": {
-    "@storybook/addon-info": "^3.4.2",
-    "@storybook/react": "^3.4.2",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
     "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.0",
     "babel-eslint": "^8.2.2",
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-react": "^6.24.1",
+    "babel-loader": "^8.0.4",
     "eslint": "^4.19.1",
     "eslint-plugin-import": "^2.9.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.7.0",
     "eslint-watch": "^3.1.3",
+    "html-webpack-plugin": "^3.2.0",
     "polished": "^1.9.2",
     "prop-types": "^15.6.1",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "styled-components": "^3.2.3"
-  }
+    "react": "^16.7.0-alpha.0",
+    "react-cosmos": "^4.6.4",
+    "react-dom": "^16.7.0-alpha.0",
+    "style-loader": "^0.23.1",
+    "styled-components": "^4.0.3",
+    "webpack": "^4.24.0"
+  },
+  "dependencies": {}
 }
